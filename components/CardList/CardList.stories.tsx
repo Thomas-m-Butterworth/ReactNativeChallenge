@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import React from "react";
 import { View } from "react-native";
-import { Card } from "./Card";
+import { CardList } from "./CardList";
 import { mockData } from "../../mocks/mockData";
 
 const meta = {
-  title: "Card",
-  component: Card,
+  title: "CardList",
+  component: CardList,
   decorators: [
     (Story) => (
       <View style={{ flex: 1, padding: 16 }}>
@@ -14,7 +14,7 @@ const meta = {
       </View>
     ),
   ],
-} satisfies Meta<typeof Card>;
+} satisfies Meta<typeof CardList>;
 
 export default meta;
 
@@ -22,6 +22,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    card: mockData[0],
+    data: mockData,
   },
 };

@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList should match the snapshot 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 16,
+      }
+    }
+    data={
+      [
+        {
+          "from": "2024-01-20T14:00Z",
+          "intensity": {
+            "actual": 42,
+            "forecast": 45,
+            "index": "very-low",
+          },
+          "to": "2024-01-20T14:30Z",
+        },
+        {
+          "from": "2024-01-20T14:30Z",
+          "intensity": {
+            "actual": 85,
+            "forecast": 89,
+            "index": "low",
+          },
+          "to": "2024-01-20T15:00Z",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    testID="CardList"
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#ffe4b5",
+              "borderRadius": 16,
+              "height": 150,
+              "marginHorizontal": 16,
+              "marginVertical": 8,
+              "padding": 16,
+            }
+          }
+          testID="CardContainer"
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "marginBottom": 16,
+              }
+            }
+            testID="TimeRangeContainer"
+          >
+            <Text
+              style={
+                {
+                  "color": "#000000",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.35,
+                }
+              }
+            >
+              14:00
+               - 
+              14:30
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginTop": 5,
+              }
+            }
+            testID="MetricsContainer"
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="ForecastContainer"
+            >
+              <FeatherMock
+                color="#00bfff"
+                name="trending-up"
+                size={30}
+                testID="ForecastIcon"
+              />
+              <Text
+                style={
+                  {
+                    "color": "#333",
+                    "fontSize": 18,
+                    "fontWeight": "500",
+                    "marginTop": 8,
+                  }
+                }
+                testID="ForecastText"
+              >
+                45
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="ActualContainer"
+            >
+              <FeatherMock
+                color="#3cb371"
+                name="eye"
+                size={30}
+                testID="ActualIcon"
+              />
+              <Text
+                style={
+                  {
+                    "color": "#333",
+                    "fontSize": 18,
+                    "fontWeight": "500",
+                    "marginTop": 8,
+                  }
+                }
+                testID="ActualText"
+              >
+                42
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="IndexContainer"
+            >
+              <FeatherMock
+                color="#00bfff"
+                name="bar-chart-2"
+                size={30}
+                testID="IndexIcon"
+              />
+              <Text
+                style={
+                  {
+                    "color": "#333",
+                    "fontSize": 18,
+                    "fontWeight": "500",
+                    "marginTop": 8,
+                  }
+                }
+                testID="IndexText"
+              >
+                Very low
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#ffe4b5",
+              "borderRadius": 16,
+              "height": 150,
+              "marginHorizontal": 16,
+              "marginVertical": 8,
+              "padding": 16,
+            }
+          }
+          testID="CardContainer"
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "marginBottom": 16,
+              }
+            }
+            testID="TimeRangeContainer"
+          >
+            <Text
+              style={
+                {
+                  "color": "#000000",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.35,
+                }
+              }
+            >
+              14:30
+               - 
+              15:00
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginTop": 5,
+              }
+            }
+            testID="MetricsContainer"
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="ForecastContainer"
+            >
+              <FeatherMock
+                color="#00bfff"
+                name="trending-up"
+                size={30}
+                testID="ForecastIcon"
+              />
+              <Text
+                style={
+                  {
+                    "color": "#333",
+                    "fontSize": 18,
+                    "fontWeight": "500",
+                    "marginTop": 8,
+                  }
+                }
+                testID="ForecastText"
+              >
+                89
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="ActualContainer"
+            >
+              <FeatherMock
+                color="#3cb371"
+                name="eye"
+                size={30}
+                testID="ActualIcon"
+              />
+              <Text
+                style={
+                  {
+                    "color": "#333",
+                    "fontSize": 18,
+                    "fontWeight": "500",
+                    "marginTop": 8,
+                  }
+                }
+                testID="ActualText"
+              >
+                85
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="IndexContainer"
+            >
+              <FeatherMock
+                color="#3cb371"
+                name="bar-chart-2"
+                size={30}
+                testID="IndexIcon"
+              />
+              <Text
+                style={
+                  {
+                    "color": "#333",
+                    "fontSize": 18,
+                    "fontWeight": "500",
+                    "marginTop": 8,
+                  }
+                }
+                testID="IndexText"
+              >
+                Low
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

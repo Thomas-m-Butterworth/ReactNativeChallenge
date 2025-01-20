@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import React from "react";
 import { View } from "react-native";
-import { Card } from "./Card";
+import { Metrics } from "./Metrics";
 import { mockData } from "../../mocks/mockData";
 
 const meta = {
-  title: "Card",
-  component: Card,
+  title: "Metrics",
+  component: Metrics,
   decorators: [
     (Story) => (
       <View style={{ flex: 1, padding: 16 }}>
@@ -14,7 +14,7 @@ const meta = {
       </View>
     ),
   ],
-} satisfies Meta<typeof Card>;
+} satisfies Meta<typeof Metrics>;
 
 export default meta;
 
